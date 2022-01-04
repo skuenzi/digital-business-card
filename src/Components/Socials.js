@@ -2,12 +2,11 @@ import {FaTwitterSquare, FaFacebookSquare, FaInstagramSquare, FaGithubSquare} fr
 
 function Socials () {
     return (
-        <footer>
-            <button><FaTwitterSquare /></button>
-            <button><FaFacebookSquare /></button>
-            <button><FaInstagramSquare /></button>
-            <button><FaGithubSquare /></button>
-
+        <footer className='socials'>
+            <button className='socials-btn'><FaTwitterSquare className='socials-icon'/></button>
+            <button className='socials-btn'><FaFacebookSquare className='socials-icon'/></button>
+            <button className='socials-btn'><FaInstagramSquare className='socials-icon'/></button>
+            <button className='socials-btn'><FaGithubSquare className='socials-icon'/></button>
         </footer>
     )
 }

@@ -7,7 +7,7 @@ import Socials from './Components/Socials'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Header />
       <About />
       <Socials />

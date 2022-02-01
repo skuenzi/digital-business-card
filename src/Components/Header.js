@@ -11,11 +11,11 @@ function Header () {
             <div className='header-links'>
                 <small ><a className='website' href='skuenzi.github.io'>skuenzi.github.io</a></small>
                 <div className='header-links__buttons'>
-                    <button className='header-links__button email'>
+                    <button className='header-links__button email' onClick={() => window.location = 'mailto:sara.elizabeth.kuenzi@gmail.com'}>
                         <MdEmail className='button-icon'/>
                         Email
                     </button>
-                    <button className='header-links__button linkedin'>
+                    <button className='header-links__button linkedin' onClick={() => window.open('https://www.linkedin.com/in/sara-kuenzi-859a0a43/') }>
                         <FaLinkedin className='button-icon'/>
                         LinkedIn
                     </button>

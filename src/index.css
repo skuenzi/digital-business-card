@@ -26,8 +26,10 @@ header {
 }
 
 .header-img {
-    max-width: 317px;
-    height: auto;
+    width: 317px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 15% 20%;
     border-radius: 10px 10px 0px 0px;
 }
 .header-title {
